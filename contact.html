@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philips Feathers Poultry Farm - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+         <a href="products.html"><i class="fas fa-egg"></i> Our Products</a>
+        <a href="practices.html"><i class="fas fa-shield-alt"></i> Best Practices</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> About Us</a>
+       
+        <a href="contact.html" class="active"><i class="fas fa-address-book"></i> Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Contact Philips Feathers Poultry</h1>
+        <p>Get in touch with us for orders, farm visits, or any questions about our products and practices.</p>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> &gt; Contact
+        </div>
+        
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Whether you have questions about our products, want to schedule a farm visit, or interested in becoming a distributor, please get in touch.</p>
+            
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="order">Product Order</option>
+                            <option value="visit">Farm Visit Request</option>
+                            <option value="partnership">Business Partnership</option>
+                            <option value="wholesale">Wholesale Inquiry</option>
+                            <option value="employment">Employment Opportunity</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="section" style="margin-top: 50px;">
+                <h3>Visit Our Farm</h3>
+                <div class="features">
+                    <div class="feature-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Address</h4>
+                        <p>Tema-Newtown<br>Tema East<br>Accra</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>(233) 207-014-163<br>Monday-Friday: 8AM-6PM<br>Saturday: 9AM-5PM</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>info@philipsfeathers.com<br>orders@philipsfeathers.com<br>support@philipsfeathers.com</p>
+                    </div>
+                </div>
+                
+                <h3 style="margin-top: 40px;">Farm Store Hours</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                            <td>Full product selection available</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>9:00 AM - 5:00 PM</td>
+                            <td>Farm tours available at 10AM & 2PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>10:00 AM - 4:00 PM</td>
+                            <td>Limited hours, call ahead recommended</td>
+                        </tr>
+                        <tr>
+                            <td>Holidays</td>
+                            <td>Closed</td>
+                            <td>See our holiday schedule online</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3 style="margin-top: 40px;">Farm Tour Information</h3>
+                <ul>
+                    <li><strong>Guided Tours:</strong> Available Saturdays at 10AM and 2PM</li>
+                    <li><strong>Tour Duration:</strong> Approximately 1.5 hours</li>
+                    <li><strong>Group Size:</strong> Maximum 15 people per tour</li>
+                    <li><strong>Reservations:</strong> Required at least 48 hours in advance</li>
+                    <li><strong>Cost:</strong> $10 per adult, $5 per child (under 12), free for children under 5</li>
+                    <li><strong>What to Wear:</strong> Comfortable shoes and weather-appropriate clothing</li>
+                </ul>
+                
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="img/home-facilities.jpg" alt="Farm store">
+                        <p>Our farm store welcomes visitors</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/about-family.jpg" alt="Farm map">
+                        <p>Farm layout and tour routes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Philips Feathers Poultry</h3>
+                <p>Providing high-quality, free-range poultry products since the 80's. Committed to sustainable farming and animal welfare.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-snapchat"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li><a href="index.html">Home</a></li>
+                     <li><a href="products.html">Our Products</a></li>
+                    <li><a href="practices.html">Best Practices</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                   
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Tema-Newtown, Accra</p>
+                <p><i class="fas fa-phone"></i> (233) 207-014-163</p>
+                <p><i class="fas fa-envelope"></i> info@philipsfeathers.com</p>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Golden Feathers Poultry Farm. All rights reserved.</p>
+            <p></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
